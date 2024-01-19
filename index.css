@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+:root{
+ --primary-font:'Rubik', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(images/circlebg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;   
+
+}
+
+/* navbar section */
+.header_wrapper{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+  
+    
+
+}
+.header_wrapper .navbar{
+    margin: 15px 0;
+}
+.header_wrapper .navbar button{
+    position: relative;
+    left: 50px;
+}
+.header_wrapper .nav-item{
+    margin: 0 5px;
+    position: relative;
+}
+.header_wrapper .nav-item .nav-link{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    }
+.header_wrapper nav{
+}
+@media (max-width:991px) {
+.navbar-collapse{
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}    
+
+}
+.header_wrapper nav li{
+    position: relative;
+    left: 5rem;
+}
+.blur{
+    position: relative;
+    margin: 50px 0;
+    padding: 0 20px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow:  0 8px 15px 0px rgba(0, 0, 0, 0.37)  ;
+}
+
+.container nav{
+    height: 2rem;
+    width: 90%;
+    margin: 15px auto;
+    padding: 20px;
+}
+.container .logo{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 35px;
+}
+.container .navbar-brand::first-letter{
+    color: #000;
+    font-size: 40px;
+}
+
+.container nav ul li a:hover{
+    color: #fff;
+}
+.content{
+    display: flex;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.content img{
+    width: 75%;
+    
+}
+
+.content .section1 button{
+    font-family: var(--primary-font);
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    border: 2px solid #543d8a;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 120px 10px 10px 0;
+    background-color: #d9cef2;
+    letter-spacing: 2px;
+}
+.content h1{
+    font-size: 3.5rem;
+    letter-spacing: -0.5px;
+}
+.content h3{
+    color: #543d8a;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.content p{
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+}
+.header_wrapper button{
+    background-color: transparent;
+    color: #000;
+    font-size: 1.2rem;
+    box-shadow:  0 8px 15px 0px rgba(0, 0, 0, 0.6)  ;
+    font-weight: bold;
+
+}
+.header_wrapper button:hover{
+    background-color: white;
+    color: #000;
+    font-size: 1.2rem;
+    box-shadow:  0 8px 15px 0px rgba(0, 0, 0, 0.6)  ;
+    font-weight: bold;
+
+}
+/* main section */
+.card{
+    padding: 10px;
+}
+#about p{
+    font-weight: bold;
+}
+/*footer*/
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: gray;
+    width: 100%;
+}
+
+footer{
+    height: 10rem;
+}
+footer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+}
+
+
+footer a i{
+    
+    font-size: 2rem;
+    color: #000;
+}
+
+footer .fb:hover {
+    background-color: #285AEB;
+}
+footer .fb:hover i{
+    color: #fff;
+}
+footer .gm:hover i{
+color: red;
+}
+
+
+footer .ig:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+    }
+footer .ig:hover i{
+    color: #fff;
+}
+footer .cp:hover{
+    background-color: #fff;
+}
+footer .cp:hover i{
+color: #285AEB;
+}
+
+footer p{
+    font-family: var(--primary-font);
+    color: #000;
+    font-weight: 500;
+}
+footer span{
+    position: relative;
+    left: 5px;
+}
